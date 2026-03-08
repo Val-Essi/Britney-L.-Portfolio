@@ -4,6 +4,13 @@
   font-weight: 400;
   font-style: normal;
 }
+    /*heading text*/
+.lavishly-yours-regular {
+  font-family: "Lavishly Yours", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 /*
 *{
@@ -25,7 +32,7 @@
     left: 0;
     z-index: 1001;
 }
-    */
+*/
 
 body{
     background-color: black;
@@ -33,4 +40,20 @@ body{
 
 p{
     color: white;
+}
+
+a:link{
+    color: pink;
+}
+a:visited{
+    color: rgba(223, 0, 37, 0.872);
+}
+
+a:hover{
+    color:aqua;
+}
+
+body{
+    margin: 0;
+    padding: 0;
 }
