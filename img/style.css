@@ -1,9 +1,9 @@
     /*reqular text*/
- .dorsa-regular {
+.dorsa-regular {
   font-family: "Dorsa", sans-serif;
   font-weight: 400;
   font-style: normal;
-} 
+}
     /*heading text*/
 .lavishly-yours-regular {
   font-family: "Lavishly Yours", cursive;
@@ -42,8 +42,7 @@ body{
 .bl-container{
     width: auto;
     height: auto;
-   /* border-bottom: 2px solid rgb(244, 140, 169);  
-    border-radius: 25px;    */
+    border-bottom: 2px solid rgb(244, 140, 169);
 }
 
 .bl-img{
@@ -53,10 +52,8 @@ body{
 }
 
 p {
-    font-family: "dorsa", sans-serif;
+    font-family: "Dorsa", sans-serif;
     font-size: 40px;
-    text-align: left;
-    letter-spacing: 1px;
 }
 
 .nav-con{
@@ -66,32 +63,4 @@ p {
     display: flex;
     justify-content: center;
     gap: 40px;
-    border-bottom: 4px solid #df63b9;  
-    border-top: 4px solid #df63b9; 
-    border-radius: 20px; 
-    /* background-image: linear-gradient(to right, hotpink, black, hotpink ); */
-}
-
-h1{
-    font-family: "Lavishly Yours", cursive;
-    font-size: 60px;
-    color: #df63b9;
-    padding-left: 1em;
-}
-.footer{
-    border-top: 2px solid #df63b9;
-    margin-top: auto;    
-    border-radius: 25px;
-}
-
-.footerText{
-    font-family: "Dorsa", sans-serif;
-    font-size: 30px;
-    text-align: center;
-    color: white;
-}
-
-.aboutMe{
-    padding-left: 3em;
-    font-size: 30px;
 }
